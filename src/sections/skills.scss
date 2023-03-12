@@ -1,6 +1,6 @@
 .titleSkills {
   color: rgb(139, 111, 216); //#eb285d;
-  font-size: 32px;
+  font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: -1px;
   margin-bottom: 30px;
@@ -90,6 +90,7 @@
 .tilesWrap .listItem li {
   list-style: none;
   padding: 10%;
+  font-size: 16px;
 }
 
 .tilesWrap .listItem ul li::before {

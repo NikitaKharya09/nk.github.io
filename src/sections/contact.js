@@ -1,15 +1,20 @@
 import React from "react";
 import "./contact.scss";
 
+import deliver from "../../assets/images/deliver.jpg";
+import cargo from "../../assets/images/cargo.jpg";
+import superman from "../../assets/images/superman.jpg";
+
 import { SocialIcon } from 'react-social-icons';
 
 export const Contact = () => {
   return (
     <React.Fragment>
       <div className="containerContact">
+        <h2 style={{position: 'absolute',marginTop: 10, left: '58%'}}> Enjoy a few Puns!!</h2>
         <div className="paper">
-          <h1>Contact Me</h1>
-          <p style={{marginTop: '10%'}}>I look forward to hearing from you!</p>
+          <h1 className="contactTitle">Contact Me</h1>
+          <p style={{marginTop: '10%', color: 'black'}}>I look forward to hearing from you!</p>
         </div>
         <ul className="numbers" role="list">
           <li className="number" role="listitem">
@@ -46,6 +51,16 @@ export const Contact = () => {
             </div>
           </li>
         </ul>
+
+        <p className="puns">
+        <h2 style={{textAlign: 'center', marginTop: -2}}>  </h2>
+            <p></p>
+            <img src={cargo} width="250px" height="250px" style={{boxShadow: '2.5rem 2.5rem 3rem 0 rgba(0, 0, 0, 0.2)', borderRadius: '3rem', marginTop: '12%'}}></img>
+            <p></p>
+            <img src={superman} width="250px" height="250px" style={{boxShadow: '2.5rem 2.5rem 3rem 0 rgba(0, 0, 0, 0.2)', borderRadius: '3rem', marginTop: '12%'}}></img>
+            <p></p>
+            <img src={deliver} width="250px" height="250px"style={{boxShadow: '2.5rem 2.5rem 3rem 0 rgba(0, 0, 0, 0.2)', borderRadius: '3rem', marginTop: '12%'}} ></img>
+          </p>
       </div>
     </React.Fragment>
   );

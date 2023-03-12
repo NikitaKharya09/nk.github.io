@@ -13,22 +13,11 @@ import img8 from "../../assets/images/img8.jpg";
 import img9 from "../../assets/images/img9.jpg";
 import img10 from "../../assets/images/img10.jpg";
 import img11 from "../../assets/images/img11.jpg";
-import deliver from "../../assets/images/deliver.jpg";
-import cargo from "../../assets/images/cargo.jpg";
-import superman from "../../assets/images/superman.jpg";
 
 export const Personal = () => {
 
   return (
     <React.Fragment>
-      {/* <p>
-          Latest Inspiration:{" "}
-          <a href="https://www.asisi.de/en/panorama/pergamon" target="_blank">
-            {" "}
-            Yedgar Asisi:{" "}
-          </a>{" "}
-        </p> */}
-
       <div class="page">
       <Parallax >
         <div className="headerStyle">
@@ -38,7 +27,6 @@ export const Personal = () => {
             <div className="external">
               <div className="horizontal-scroll-wrapper">
                 <div className="img-wrapper slower">
-                  {/* <a href="https://altphotos.com/photo/stylish-parisian-cafe-terrace-279/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img6} alt="" />
                   {/* </a> */}
                 </div>
@@ -47,45 +35,31 @@ export const Personal = () => {
                   className="img-wrapper faster"
                   style={{ marginRight: "10%" }}
                 >
-                  {/* <a href="https://altphotos.com/photo/retro-boy-doll-wearing-elegant-clothes-330/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img4} alt="" />
-                  {/* </a> */}
                 </div>
 
                 <div className="img-wrapper slower vertical">
-                  {/* <a href="https://altphotos.com/photo/clocks-shop-exposition-window-reflecting-the-streets-277/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img1} alt="" />
-                  {/* </a> */}
                 </div>
 
                 <div className="img-wrapper slower slower-down">
-                  {/* <a href="https://altphotos.com/photo/swans-and-ducks-swimming-in-a-river-264/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img2} alt="" />
-                  {/* </a> */}
                 </div>
 
                 <div className="img-wrapper">
-                  {/* <a href="https://altphotos.com/photo/sidewalk-terrace-of-a-blue-facade-cafe-312/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img5} alt="" />
-                  {/* </a> */}
                 </div>
 
                 <div className="img-wrapper slower">
-                  {/* <a href="https://altphotos.com/photo/paris-waterfront-at-sunset-1555/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img3} alt="" />
-                  {/* </a> */}
                 </div>
 
                 <div className="img-wrapper faster1">
-                  {/* <a href="https://altphotos.com/photo/old-man-leaning-over-the-barrier-looking-at-the-river-265/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img7} alt="" />
-                  {/* </a> */}
                 </div>
 
                 <div className="img-wrapper slower">
-                  {/* <a href="https://altphotos.com/photo/tourist-barge-on-the-river-seine-near-notre-dame-266/" target="_blank" rel="noopener"> */}
                   <img className="imgPersonal" src={img10} alt="" />
-                  {/* </a> */}
                 </div>
               </div>
             </div>
@@ -111,7 +85,6 @@ export const Personal = () => {
         <Parallax >
         
         <div className="main">
-        {/* <h1> Additionally, I like </h1> */}
             <div className="mainContent">
           <h2 >Travelling</h2>
           <p>
@@ -126,19 +99,9 @@ export const Personal = () => {
           <h2 style={{marginLeft: 30}}>Puns</h2>
           <p>
             I enjoy the lame puns every now and then (who doesnt!)
-            Enjoy a few of them below!!
           </p>
                
         </div>
-
-        <p style={{display:'flex', gap: '20%', marginTop: 30}}>
-            <p></p>
-            <img src={cargo} width="300px" height="300px" style={{boxShadow: '2.5rem 2.5rem 3rem 0 rgba(0, 0, 0, 0.2)', borderRadius: '3rem'}}></img>
-            <p></p>
-            <img src={superman} width="300px" height="300px" style={{boxShadow: '2.5rem 2.5rem 3rem 0 rgba(0, 0, 0, 0.2)', borderRadius: '3rem'}}></img>
-            <p></p>
-            <img src={deliver} width="300px" height="300px"style={{boxShadow: '2.5rem 2.5rem 3rem 0 rgba(0, 0, 0, 0.2)', borderRadius: '3rem'}} ></img>
-          </p>
           </div>
       </Parallax>
       </div>

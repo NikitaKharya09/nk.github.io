@@ -10,7 +10,7 @@ import vmware from '../../assets/images/vmware.jpg';
 export const Experience = () => {
   return (
     <React.Fragment>
-        <h1 style={{textAlign: 'center', color: 'rgb(139, 111, 216)', marginTop: 20, marginBottom: 20 }}>Work Experience</h1>
+        <h1 style={{textAlign: 'center', color: 'rgb(139, 111, 216)', marginTop: 20, marginBottom: 20, fontSize: '2.5rem' }}>Work Experience</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -24,8 +24,10 @@ export const Experience = () => {
           <h3 className="vertical-timeline-element-title">Member Of Technical Staff - III</h3>
           <h4 className="vertical-timeline-element-subtitle">VMWare</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            <ul>
+              <li>Creating a Next-Gen UI application for a classic one that serves over 18K users.</li>
+              <li>Implemented the UI components as a service to be easily utilized by different cloud based applications.</li>
+            </ul>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -41,8 +43,10 @@ export const Experience = () => {
             Deutsche Bank
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+          <ul>
+              <li>Led and built the UI for transaction monitoring application, a strategic implementation of automated compliance checks across all transactions, delivering efficiency gains with reduced scope for manual errors and faster turnaround time for processing with an emphasis on regulatory compliance.</li>
+              <li>Planned and developed the interfaces using config-based approach to offer simplified development, resulting in modular components which were used in multiple projects within the bank.</li>
+            </ul>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -57,7 +61,11 @@ export const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             Accenture
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>
+          <ul>
+              <li>Managed and led the web development of a legacy application with improved user experience by continuous brainstorming on the designs and discussions with the clients to implement the requirements with the best solution.</li>
+            </ul>
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -71,7 +79,11 @@ export const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             Cognizant
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>
+          <ul>
+              <li>Single handedly did the full front end development of a health-care web application that included the UI creation with HTML5, CSS3 and Angular JS.</li>
+            </ul>
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </React.Fragment>
