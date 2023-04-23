@@ -2,17 +2,14 @@ import React from "react";
 import "./personal.scss";
 import { Parallax } from "react-scroll-parallax";
 
-import img1 from "../../assets/images/img1.jpg";
-import img2 from "../../assets/images/img2.jpg";
-import img3 from "../../assets/images/img3.jpg";
-import img4 from "../../assets/images/img4.jpg";
-import img5 from "../../assets/images/img5.jpg";
-import img6 from "../../assets/images/img6.jpg";
-import img7 from "../../assets/images/img7.jpg";
-import img8 from "../../assets/images/img8.jpg";
-import img9 from "../../assets/images/img9.jpg";
-import img10 from "../../assets/images/img10.jpg";
-import img11 from "../../assets/images/img11.jpg";
+import painting1 from "../../assets/images/painting1.jpg";
+import painting2 from "../../assets/images/painting2.jpg";
+import painting3 from "../../assets/images/painting3.jpg";
+import painting4 from "../../assets/images/painting4.jpg";
+import painting5 from "../../assets/images/painting5.jpg";
+import painting6 from "../../assets/images/painting6.jpg";
+import painting7 from "../../assets/images/painting7.jpg";
+import painting8 from "../../assets/images/painting8.jpg";
 
 export const Personal = () => {
 
@@ -23,43 +20,42 @@ export const Personal = () => {
         <div className="headerStyle">
           <h1 style={{textAlign: 'center', marginTop: 30}}> Few of my personal interests </h1>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <h3 style={{color: "rgb(58, 9, 60)", fontSize: 25}}> Painitng </h3>
+            <h3 style={{color: "rgb(58, 9, 60)", fontSize: 25}}> Painting </h3>
             <div className="external">
               <div className="horizontal-scroll-wrapper">
                 <div className="img-wrapper slower">
-                  <img className="imgPersonal" src={img6} alt="" />
-                  {/* </a> */}
+                  <img className="imgPersonal" src={painting6} alt="" />
                 </div>
 
                 <div
                   className="img-wrapper faster"
                   style={{ marginRight: "10%" }}
                 >
-                  <img className="imgPersonal" src={img4} alt="" />
+                  <img className="imgPersonal" src={painting4} alt="" />
                 </div>
 
                 <div className="img-wrapper slower vertical">
-                  <img className="imgPersonal" src={img1} alt="" />
+                  <img className="imgPersonal" src={painting1} alt="" />
                 </div>
 
                 <div className="img-wrapper slower slower-down">
-                  <img className="imgPersonal" src={img2} alt="" />
+                  <img className="imgPersonal" src={painting2} alt="" />
                 </div>
 
                 <div className="img-wrapper">
-                  <img className="imgPersonal" src={img5} alt="" />
+                  <img className="imgPersonal" src={painting5} alt="" />
                 </div>
 
                 <div className="img-wrapper slower">
-                  <img className="imgPersonal" src={img3} alt="" />
+                  <img className="imgPersonal" src={painting3} alt="" />
                 </div>
 
                 <div className="img-wrapper faster1">
-                  <img className="imgPersonal" src={img7} alt="" />
+                  <img className="imgPersonal" src={painting7} alt="" />
                 </div>
 
                 <div className="img-wrapper slower">
-                  <img className="imgPersonal" src={img10} alt="" />
+                  <img className="imgPersonal" src={painting8} alt="" />
                 </div>
               </div>
             </div>
@@ -91,12 +87,12 @@ export const Personal = () => {
             I have travelled to 15 countries till now in 4 different continents, a few of them multiple times as well.
             Visited Continents: Asia, Europe, North America and Australia.
           </p>
-          <h2 style={{marginLeft: 30}}> Social Work</h2>
+          <h2 className="titleMargin"> Social Work</h2>
           <p>
             I have a keen interest in giving back to society. This includes teaching, being able to help the needy, any efforts to be able to help the greatest human beings, our army family, and trying to get closer to being carbon neutral.
             I have been part of the outreach programs of Cognizant and Accenture as well as on my personal level.
           </p>
-          <h2 style={{marginLeft: 30}}>Puns</h2>
+          <h2 className="titleMargin">Puns</h2>
           <p>
             I enjoy the lame puns every now and then (who doesnt!)
           </p>

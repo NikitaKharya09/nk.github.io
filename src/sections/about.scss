@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-flow: row wrap;
-  height: 80vh;
+  // height: 80vh;
 }
 
 .scroll {
@@ -14,22 +14,44 @@
 }
 
 .containerAbout {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  margin-top: 5rem;
+  flex-direction: column;
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .containerAbout {
+    flex-direction: row;
+    margin-top: 8rem;
+  }
+  
+}
+
 .ring {
-  position: relative;
   z-index: 2;
   float: right;
   right: 5%;
+  flex: 30%;
+  
 }
 
+.aboutText { 
+  margin: 15%;
+   font-size: 18px;
+  }
+
+
+
+
 .circle {
-  position: absolute;
   width: 60%;
   height: 55%;
   z-index: 1;
+  flex: 60%;
+
 
   .parallaxInner {
     position: absolute;
@@ -100,4 +122,25 @@
 
 canvas {
   border-radius: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .root {
+    height: 60vh;
+  }
+
+  .ring {
+    margin-top: 7%;
+  }
+
+  .circle {
+    height: 65%;
+  }
+  .circle .parallaxInner, .circleInner, .circle:before, .circle:after {
+    border-radius: 10%;
+  }
+
+  .aboutText {
+    margin: 10%;
+  }
 }

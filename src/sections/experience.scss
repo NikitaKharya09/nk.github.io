@@ -133,12 +133,16 @@ p a:hover {
 }
 
 .itemDate {
-    // background: #ddd;
     padding: 20px !important;
     width: 50% !important;
     border-radius: 8px;
     background: #59125b; //#61b8ff;
-    //  color: #000;
     color: rgb(139, 111, 216);
     box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 800px) {
+  .itemDate {
+    width: 100% !important;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Parallax } from "react-scroll-parallax";
 import "./about.scss";
-import imageSelf from "../../assets/images/self3.jpg";
+import imageSelf from "../../assets/images/personal_image.jpg";
 
 export const About = () => {
   const image = new Image();
@@ -94,10 +94,10 @@ export const About = () => {
   return (
     <div className="root">
       <div className="containerAbout">
-        <Parallax translateY={[50, -50]} className="circle">
+        <Parallax className="circle">
           <div className="parallaxInner">
             <div className="circleInner">
-              <div style={{ margin: "15%", fontSize: 18 }}>
+              <div className="aboutText">
                 <span> Hi! </span>
                 <span>
                   I am a creative front-end developer offering 10 years of
@@ -112,7 +112,7 @@ export const About = () => {
           </div>
         </Parallax>
 
-        <Parallax translateY={[100, -100]} className="ring">
+        <Parallax  className="ring">
           <canvas id="canvas1"></canvas>
         </Parallax>
       </div>

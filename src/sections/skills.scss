@@ -31,7 +31,7 @@
   font-size: 30px;
   margin: 0;
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.8;
   top: 50px;
   transition: all 0.3s ease-in-out;
 }
@@ -80,7 +80,7 @@
 }
 .tilesWrap .listItem:hover h3 {
   top: 10px;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .tilesWrap .listItem ul {
@@ -89,7 +89,7 @@
 
 .tilesWrap .listItem li {
   list-style: none;
-  padding: 10%;
+  padding: 0.8rem;
   font-size: 16px;
 }
 
@@ -139,4 +139,10 @@
   background: #c21500;
   background: -webkit-linear-gradient(to right, #ffc500, #c21500);
   background: linear-gradient(to right, #ffc500, #c21500);
+}
+
+@media screen and (max-width: 800px) {
+  #skills ul {
+    margin-top: 2rem;
+  }
 }

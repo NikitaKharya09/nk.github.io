@@ -9,8 +9,13 @@
   padding-top: 30px;
   display: flex;
   flex-direction: column;
-  // align-items: center;
   font-family: Courier New, sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+  .containerContact {
+    width: 90vw;
+  }
 }
 
 .contactTitle {
@@ -30,7 +35,6 @@
     var(--gray-light)
   );
   box-shadow: 1px 0 1px var(--gray);
-  // text-align: center;
 }
 
 /* Tacks */
@@ -103,6 +107,7 @@
   font-family: sans-serif;
   color: black;
   margin-left: 30px;
+  line-height: 1rem;
 }
 
 .number:nth-child(2) {
@@ -147,7 +152,39 @@
 .puns {
   display: flex;
   gap: 2%;
-  left: 35%;
-  width: 30%;
+  left: 90%;
   position: absolute;
 }
+
+.punsTitle {
+  position: absolute;
+  margin-top: 10px;
+  left: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  .puns {
+    width: 30%;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .punsTitle {
+    left: 5rem;
+  }
+
+  .containerContact {
+    padding-left: 2rem;
+  }
+
+  .numbers {
+    margin-left: 5% !important;
+  }
+  .puns {
+    display: block;
+    position: static;
+  }
+}
+
+
