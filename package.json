@@ -1,24 +1,26 @@
 {
-  "name": "portfolio",
+  "name": "nikitakharya",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikitaKharya09/portfolio.git"
+    "url": "git+https://github.com/NikitaKharya09/nikita-kharya.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NikitaKharya09/portfolio/issues"
+    "url": "https://github.com/NikitaKharya09/nikita-kharya/issues"
   },
-  "homepage": "https://github.com/NikitaKharya09/portfolio#readme",
+  "homepage": "https://github.com/NikitaKharya09/nikita-kharya#readme",
   "dependencies": {
     "file-loader": "^6.2.0",
     "react": "^18.2.0",
