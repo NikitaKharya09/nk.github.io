@@ -1,5 +1,5 @@
 {
-  "name": "nikitakharya",
+  "name": "nikita-kharya",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/NikitaKharya09/nikita-kharya/issues"
   },
-  "homepage": "https://github.com/NikitaKharya09/nikita-kharya#readme",
+  "homepage": "https://github.com/NikitaKharya09/nikita-kharya",
   "dependencies": {
     "file-loader": "^6.2.0",
     "react": "^18.2.0",
