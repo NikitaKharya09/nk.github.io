@@ -1,9 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { HashRouter } from "react-router-dom";
 import App from "./App";
 import "./App.scss";
-import { ParallaxProvider } from 'react-scroll-parallax';
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const el = document.getElementById("app");
 
-ReactDOM.render(<ParallaxProvider><App /></ParallaxProvider>, el);
+ReactDOM.render(
+  <HashRouter base="/">
+    <ParallaxProvider>
+      <App />
+    </ParallaxProvider>
+  </HashRouter>,
+  el
+);
