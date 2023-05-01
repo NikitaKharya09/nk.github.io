@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+http://nikitaKharya09.github.io/nikita-kharya"
+    "url": "git+https://nikitaKharya09.github.io/nikita-kharya"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "http://nikitaKharya09.github.io/nikita-kharyaissues"
+    "url": "https://nikitaKharya09.github.io/nikita-kharyaissues"
   },
-  "homepage": "http://nikitaKharya09.github.io/nikita-kharya",
+  "homepage": "https://nikitaKharya09.github.io/nikita-kharya",
   "dependencies": {
     "file-loader": "^6.2.0",
     "react": "^18.2.0",
