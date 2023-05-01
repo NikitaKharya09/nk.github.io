@@ -1,5 +1,5 @@
 {
-  "name": "nikita-kharya",
+  "name": "nikitakharya",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://nikitaKharya09.github.io/nikita-kharya"
+    "url": "git+https://nikitakharya09.github.io/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://nikitaKharya09.github.io/nikita-kharya/issues"
+    "url": "https://nikitakharya09/issues"
   },
-  "homepage": "https://nikitaKharya09.github.io/nikita-kharya",
+  "homepage": "https://nikitakharya09.github.io",
   "dependencies": {
     "file-loader": "^6.2.0",
     "react": "^18.2.0",
