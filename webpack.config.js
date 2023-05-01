@@ -5,7 +5,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, "/dist"), // the bundle output path
     filename: "bundle.js", // the name of the bundle
-    publicPath: '/nikita-kharya'
   },
   plugins: [
     new HtmlWebpackPlugin({

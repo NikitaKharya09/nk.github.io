@@ -4,29 +4,11 @@ import App from "./App";
 import "./App.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+const el = document.getElementById("app");
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <ParallaxProvider>
-        <App />
-      </ParallaxProvider>
-    ),
-  },
-  {
-    path: "/nikita-kharya",
-    element: (
-      <ParallaxProvider>
-        <App />
-      </ParallaxProvider>
-    ),
-  },
-]);
-
-ReactDOM.createRoot(document.getElementById("app")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+ReactDOM.render(
+    <ParallaxProvider>
+      <App />
+    </ParallaxProvider>,
+  el
 );
