@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "nikita-kharya",
+    path: "/nikita-kharya",
     element: (
       <ParallaxProvider>
         <App />
